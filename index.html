@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular IMC</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <div class="title">
+        <img src="./src/images/kisspng-footprint-computer-icons-clip-art-bmi-5b247e46c44409.6946189015291182788039.png" alt="">
+    </div>
+    <div class="container">
+        <form action="">
+            <label for="peso">Peso:</label>
+            <input id="peso" value="peso" class="forminput" type="number" placeholder="00" required>
+            <br>
+            <br>
+            <br>
+            <label for="altura">Altura:</label>
+            <input id="altura" value="altura" required class="forminput" type="number" placeholder="00" required>
+            <br>
+            <button class="btn" type="button" id="btn" value="Calcular" onclick="calcImc">Calcular IMC</button>
+            <br>
+            <span id="result" class="resultado">00</span>
+        </form>
+    </div>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
